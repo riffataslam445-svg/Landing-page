@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaeded;
+    color: #0f1111;
+}
+header {
+    background-color: #131921;
+    color: white;
+    padding: 10px 20px;
+}
+.navbar {
+    overflow: hidden; 
+    line-height: 40px;
+}
+.nav-logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: hsl(38, 100%, 50%); 
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.nav-logo b {
+    color: white;
+    font-size: 14px;
+}
+
+.nav-search {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.nav-search input {
+    width: 80%;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 4px 0 0 4px; 
+    border: none;
+    font-size: 14px;
+}
+.search-icon {
+    height: 37px;
+    width: 45px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.nav-links {
+    float: right;
+    word-spacing: 15px; 
+    font-size: 14px;
+}
+
+.nav-links span {
+    cursor: pointer;
+}
+.main-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.sidebar {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    background-color: white;
+    min-height: 500px;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.sidebar hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 15px 0;
+}
+.content {
+    float: left;
+    width: 80%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.results-header {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    letter-spacing: 1px; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    background-color: white;
+}
+td {
+    width: 33.33%;
+    padding: 20px;
+    border: 1px solid #eee;
+    vertical-align: top;
+    text-align: center;
+}
+.img-container img {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.product-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #007185;
+    line-height: 1.4;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.rating {
+    color: #de7921;
+    font-weight: bold;
+    font-size: 14px;
+}
+.price-tag {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b12704;
+    margin: 10px 0;
+}
+input[type="submit"] {
+    background-color: #ffd814;
+    border: 1px solid #fcd200;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5); 
+}
+input[type="submit"]:hover {
+    background-color: #f7ca00;
+}
+footer {
+    clear: both;
+    background-color: #232f3e;
+    color: white;
+    margin-top: 30px;
+}
+
+.back-to-top {
+    background-color: #37475a;
+    text-align: center;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.footer-container table {
+    background-color: transparent;
+}
+
+.footer-container td {
+    border: none;
+    text-align: left;
+    color: #DDD;
+}
+
+.footer-container h1 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container li {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    background-color: #131a22;
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+.settings input {
+    background-color: transparent;
+    border: 1px solid #848688;
+    color: #ccc;
+    padding: 5px 15px;
+    border-radius: 3px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+marquee {
+    background-color: #febd69;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
